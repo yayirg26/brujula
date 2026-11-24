@@ -1,0 +1,483 @@
+﻿Date,ID,Type,Client/Vendor,Service,Description,Amount,Status
+2026-01-01,EXP-2026-0006,Expense,Ad platform spend,Performance Marketing,Media spend (non-billable),6150.00,Paid
+2026-01-01,INV-2026-0008,Revenue,Northgate Properties,Performance Marketing,Paid social campaign,8950.00,Paid
+2026-01-02,INV-2026-0003,Revenue,Cedar Ridge Dental,Web Development,Landing page package,18750.00,Paid
+2026-01-02,INV-2026-0013,Revenue,Maplestone Insurance,Managed Retainers,Monthly growth retainer,6050.00,Paid
+2026-01-03,INV-2026-0021,Revenue,Quayside Marine,Content Production,Photography shoot,6100.00,Paid
+2026-01-03,OPP-2026-0003,Pipeline,Tidewater Clinics,Web Development,Proposal — Headless CMS project,47000.00,Discovery
+2026-01-04,INV-2026-0005,Revenue,Granite Peak Outfitters,Performance Marketing,Lead-gen campaign,14200.00,Paid
+2026-01-05,INV-2026-0007,Revenue,Kestrel Aviation Services,Performance Marketing,Lead-gen campaign,12650.00,Paid
+2026-01-06,EXP-2026-0001,Expense,Internal payroll,Web Development,Delivery team & overhead allocation,30710.00,Paid
+2026-01-06,EXP-2026-0014,Expense,Contractor network,Content Production,Freelance specialists,4020.00,Paid
+2026-01-06,INV-2026-0006,Revenue,Lumen Solar Co.,Performance Marketing,Analytics & attribution setup,10200.00,Paid
+2026-01-07,EXP-2026-0007,Expense,Internal payroll,Managed Retainers,Delivery team & overhead allocation,18470.00,Paid
+2026-01-07,EXP-2026-0013,Expense,Internal payroll,Content Production,Delivery team & overhead allocation,13050.00,Paid
+2026-01-07,INV-2026-0022,Revenue,Orchid Hospitality Group,Content Production,Case study series,11650.00,Paid
+2026-01-09,INV-2026-0002,Revenue,Maplestone Insurance,Web Development,E-commerce build — sprint,19100.00,Paid
+2026-01-11,EXP-2026-0012,Expense,Research panels,Brand Strategy,Customer research & panels,3330.00,Paid
+2026-01-12,EXP-2026-0004,Expense,Internal payroll,Performance Marketing,Delivery team & overhead allocation,27020.00,Paid
+2026-01-12,INV-2026-0004,Revenue,Bluewater Logistics,Web Development,E-commerce build — sprint,10950.00,Paid
+2026-01-12,INV-2026-0009,Revenue,Everline Fitness,Performance Marketing,CRO testing program,6100.00,Paid
+2026-01-14,EXP-2026-0008,Expense,Contractor network,Managed Retainers,Freelance specialists,6450.00,Paid
+2026-01-16,EXP-2026-0005,Expense,Contractor network,Performance Marketing,Freelance specialists,7800.00,Paid
+2026-01-16,EXP-2026-0010,Expense,Internal payroll,Brand Strategy,Delivery team & overhead allocation,14170.00,Paid
+2026-01-16,INV-2026-0016,Revenue,Northgate Properties,Brand Strategy,Positioning workshop,7250.00,Paid
+2026-01-16,INV-2026-0023,Revenue,Ironleaf Manufacturing,Content Production,Photography shoot,2950.00,Paid
+2026-01-16,OPP-2026-0002,Pipeline,Ironleaf Manufacturing,Web Development,Proposal — Headless CMS project,18500.00,Discovery
+2026-01-16,OPP-2026-0006,Pipeline,Granite Peak Outfitters,Performance Marketing,Proposal — Paid media program,47500.00,Verbal commit
+2026-01-18,INV-2026-0011,Revenue,Redwood Financial Advisors,Managed Retainers,Monthly growth retainer,8800.00,Paid
+2026-01-18,OPP-2026-0005,Pipeline,Tidewater Clinics,Web Development,Proposal — Website rebuild,29500.00,Negotiation
+2026-01-19,EXP-2026-0009,Expense,Support tooling,Managed Retainers,Helpdesk & monitoring tools,4480.00,Paid
+2026-01-19,INV-2026-0014,Revenue,Kestrel Aviation Services,Managed Retainers,Support & SLA retainer,5850.00,Paid
+2026-01-19,OPP-2026-0004,Pipeline,Lumen Solar Co.,Web Development,Proposal — Headless CMS project,34000.00,Verbal commit
+2026-01-20,INV-2026-0010,Revenue,Everline Fitness,Managed Retainers,Fractional CMO retainer,8100.00,Paid
+2026-01-20,INV-2026-0015,Revenue,Orchid Hospitality Group,Managed Retainers,Fractional CMO retainer,4250.00,Paid
+2026-01-20,INV-2026-0017,Revenue,Juniper Health Clinics,Brand Strategy,Messaging framework,6350.00,Paid
+2026-01-21,INV-2026-0001,Revenue,Lumen Solar Co.,Web Development,Landing page package,10700.00,Paid
+2026-01-24,INV-2026-0012,Revenue,Pinecrest Academy,Managed Retainers,Fractional CMO retainer,5650.00,Paid
+2026-01-24,INV-2026-0020,Revenue,Redwood Financial Advisors,Content Production,Photography shoot,6050.00,Paid
+2026-01-24,OPP-2026-0001,Pipeline,Summit Trail Apparel,Performance Marketing,Proposal — Lead-gen engine,24000.00,Proposal sent
+2026-01-25,INV-2026-0018,Revenue,Corvid Analytics,Brand Strategy,Brand identity system,12750.00,Paid
+2026-01-26,EXP-2026-0003,Expense,Cloud hosting & licenses,Web Development,"Hosting, plugins & licenses",7770.00,Paid
+2026-01-29,EXP-2026-0002,Expense,Contractor network,Web Development,Freelance specialists,9960.00,Paid
+2026-01-30,INV-2026-0019,Revenue,Lumen Solar Co.,Brand Strategy,Brand identity system,4650.00,Paid
+2026-01-31,EXP-2026-0011,Expense,Contractor network,Brand Strategy,Freelance specialists,4780.00,Paid
+2026-01-31,EXP-2026-0015,Expense,Production crew & studio,Content Production,"Studio, crew & equipment",3140.00,Paid
+2026-02-01,INV-2026-0038,Revenue,Ironleaf Manufacturing,Managed Retainers,Fractional CMO retainer,6300.00,Paid
+2026-02-02,INV-2026-0047,Revenue,Orchid Hospitality Group,Content Production,Video production,5750.00,Paid
+2026-02-04,EXP-2026-0023,Expense,Contractor network,Managed Retainers,Freelance specialists,5870.00,Paid
+2026-02-04,OPP-2026-0007,Pipeline,Granite Peak Outfitters,Managed Retainers,Proposal — Fractional CMO engagement,28000.00,Discovery
+2026-02-05,INV-2026-0041,Revenue,Lumen Solar Co.,Brand Strategy,Brand identity system,7100.00,Paid
+2026-02-05,INV-2026-0044,Revenue,Ironleaf Manufacturing,Content Production,Photography shoot,4500.00,Paid
+2026-02-05,INV-2026-0045,Revenue,Corvid Analytics,Content Production,Photography shoot,10850.00,Paid
+2026-02-05,OPP-2026-0015,Pipeline,Vantage Freight,Web Development,Proposal — Customer portal,33500.00,Proposal sent
+2026-02-06,INV-2026-0025,Revenue,Northgate Properties,Web Development,Website redesign — milestone,23000.00,Paid
+2026-02-06,INV-2026-0028,Revenue,Lumen Solar Co.,Web Development,Landing page package,6900.00,Paid
+2026-02-06,OPP-2026-0009,Pipeline,Ironleaf Manufacturing,Performance Marketing,Proposal — CRO roadmap,10000.00,Discovery
+2026-02-07,EXP-2026-0020,Expense,Contractor network,Performance Marketing,Freelance specialists,9100.00,Paid
+2026-02-07,OPP-2026-0013,Pipeline,Sable Creek Wineries,Content Production,Proposal — Quarterly content plan,17000.00,Proposal sent
+2026-02-08,INV-2026-0027,Revenue,Redwood Financial Advisors,Web Development,Accessibility remediation,13850.00,Paid
+2026-02-10,EXP-2026-0022,Expense,Internal payroll,Managed Retainers,Delivery team & overhead allocation,19480.00,Paid
+2026-02-11,EXP-2026-0029,Expense,Contractor network,Content Production,Freelance specialists,4190.00,Paid
+2026-02-13,EXP-2026-0026,Expense,Contractor network,Brand Strategy,Freelance specialists,5320.00,Paid
+2026-02-15,OPP-2026-0011,Pipeline,Willowbrook Senior Living,Managed Retainers,Proposal — Annual growth retainer,9500.00,Negotiation
+2026-02-16,OPP-2026-0012,Pipeline,Everline Fitness,Performance Marketing,Proposal — Lead-gen engine,33000.00,Proposal sent
+2026-02-17,EXP-2026-0016,Expense,Internal payroll,Web Development,Delivery team & overhead allocation,32470.00,Paid
+2026-02-17,EXP-2026-0025,Expense,Internal payroll,Brand Strategy,Delivery team & overhead allocation,16990.00,Paid
+2026-02-17,INV-2026-0024,Revenue,Pinecrest Academy,Web Development,Accessibility remediation,11600.00,Paid
+2026-02-17,INV-2026-0030,Revenue,Alder & Finch Legal,Performance Marketing,CRO testing program,10850.00,Paid
+2026-02-17,INV-2026-0040,Revenue,Juniper Health Clinics,Brand Strategy,Brand identity system,11550.00,Paid
+2026-02-18,EXP-2026-0028,Expense,Internal payroll,Content Production,Delivery team & overhead allocation,13520.00,Paid
+2026-02-18,INV-2026-0039,Revenue,Everline Fitness,Managed Retainers,Monthly growth retainer,5450.00,Paid
+2026-02-19,INV-2026-0042,Revenue,Northgate Properties,Brand Strategy,Messaging framework,13000.00,Paid
+2026-02-20,EXP-2026-0021,Expense,Ad platform spend,Performance Marketing,Media spend (non-billable),6770.00,Paid
+2026-02-20,OPP-2026-0014,Pipeline,Summit Trail Apparel,Performance Marketing,Proposal — Lead-gen engine,47500.00,Discovery
+2026-02-21,INV-2026-0031,Revenue,Fairhaven Realty,Performance Marketing,Paid search management,4650.00,Paid
+2026-02-21,INV-2026-0036,Revenue,Bluewater Logistics,Managed Retainers,Monthly growth retainer,6600.00,Paid
+2026-02-22,EXP-2026-0024,Expense,Support tooling,Managed Retainers,Helpdesk & monitoring tools,4590.00,Paid
+2026-02-22,INV-2026-0026,Revenue,Redwood Financial Advisors,Web Development,Website redesign — milestone,14950.00,Paid
+2026-02-23,EXP-2026-0018,Expense,Cloud hosting & licenses,Web Development,"Hosting, plugins & licenses",7370.00,Paid
+2026-02-24,EXP-2026-0017,Expense,Contractor network,Web Development,Freelance specialists,10050.00,Paid
+2026-02-24,EXP-2026-0019,Expense,Internal payroll,Performance Marketing,Delivery team & overhead allocation,26360.00,Paid
+2026-02-24,EXP-2026-0030,Expense,Production crew & studio,Content Production,"Studio, crew & equipment",3370.00,Paid
+2026-02-24,INV-2026-0043,Revenue,Granite Peak Outfitters,Content Production,Blog content package,5550.00,Paid
+2026-02-24,INV-2026-0046,Revenue,Northgate Properties,Content Production,Case study series,4600.00,Paid
+2026-02-24,OPP-2026-0010,Pipeline,Alder & Finch Legal,Web Development,Proposal — Customer portal,37000.00,Negotiation
+2026-02-25,INV-2026-0033,Revenue,Juniper Health Clinics,Performance Marketing,Paid search management,11900.00,Paid
+2026-02-26,INV-2026-0032,Revenue,Alder & Finch Legal,Performance Marketing,Paid search management,7700.00,Paid
+2026-02-26,INV-2026-0034,Revenue,Ironleaf Manufacturing,Managed Retainers,Fractional CMO retainer,8400.00,Paid
+2026-02-26,INV-2026-0035,Revenue,Pinecrest Academy,Managed Retainers,Monthly growth retainer,8550.00,Paid
+2026-02-26,INV-2026-0037,Revenue,Bluewater Logistics,Managed Retainers,Monthly growth retainer,5100.00,Paid
+2026-02-27,INV-2026-0029,Revenue,Lumen Solar Co.,Performance Marketing,Analytics & attribution setup,11350.00,Paid
+2026-02-28,EXP-2026-0027,Expense,Research panels,Brand Strategy,Customer research & panels,3970.00,Paid
+2026-02-28,OPP-2026-0008,Pipeline,Tidewater Clinics,Performance Marketing,Proposal — CRO roadmap,37000.00,Verbal commit
+2026-03-01,INV-2026-0071,Revenue,Harbor Lane Bakery,Content Production,Case study series,10500.00,Paid
+2026-03-02,OPP-2026-0022,Pipeline,Sable Creek Wineries,Web Development,Proposal — Website rebuild,10500.00,Negotiation
+2026-03-02,OPP-2026-0024,Pipeline,Willowbrook Senior Living,Web Development,Proposal — E-commerce replatform,41500.00,Negotiation
+2026-03-03,EXP-2026-0031,Expense,Internal payroll,Web Development,Delivery team & overhead allocation,37040.00,Paid
+2026-03-03,EXP-2026-0040,Expense,Internal payroll,Brand Strategy,Delivery team & overhead allocation,16870.00,Paid
+2026-03-03,INV-2026-0061,Revenue,Pinecrest Academy,Managed Retainers,Monthly growth retainer,6350.00,Paid
+2026-03-03,INV-2026-0070,Revenue,Juniper Health Clinics,Content Production,Video production,7250.00,Paid
+2026-03-03,OPP-2026-0020,Pipeline,Harbor Lane Bakery,Web Development,Proposal — Website rebuild,43000.00,Proposal sent
+2026-03-04,INV-2026-0065,Revenue,Orchid Hospitality Group,Brand Strategy,Positioning workshop,18950.00,Paid
+2026-03-04,INV-2026-0069,Revenue,Harbor Lane Bakery,Content Production,Video production,4450.00,Paid
+2026-03-06,EXP-2026-0039,Expense,Support tooling,Managed Retainers,Helpdesk & monitoring tools,4870.00,Paid
+2026-03-06,INV-2026-0055,Revenue,Alder & Finch Legal,Performance Marketing,Paid search management,9450.00,Paid
+2026-03-07,OPP-2026-0018,Pipeline,Maplestone Insurance,Content Production,Proposal — Quarterly content plan,39000.00,Proposal sent
+2026-03-08,EXP-2026-0033,Expense,Cloud hosting & licenses,Web Development,"Hosting, plugins & licenses",8770.00,Paid
+2026-03-08,INV-2026-0053,Revenue,Lumen Solar Co.,Performance Marketing,CRO testing program,11600.00,Paid
+2026-03-08,INV-2026-0066,Revenue,Everline Fitness,Brand Strategy,Rebrand rollout,7050.00,Paid
+2026-03-08,OPP-2026-0021,Pipeline,Atlas Ridge Engineering,Managed Retainers,Proposal — Annual growth retainer,46500.00,Negotiation
+2026-03-09,EXP-2026-0036,Expense,Ad platform spend,Performance Marketing,Media spend (non-billable),6200.00,Paid
+2026-03-09,OPP-2026-0023,Pipeline,Ironleaf Manufacturing,Managed Retainers,Proposal — Support SLA renewal,20500.00,Negotiation
+2026-03-10,EXP-2026-0041,Expense,Contractor network,Brand Strategy,Freelance specialists,5420.00,Paid
+2026-03-10,INV-2026-0064,Revenue,Juniper Health Clinics,Managed Retainers,Fractional CMO retainer,4300.00,Paid
+2026-03-11,EXP-2026-0043,Expense,Internal payroll,Content Production,Delivery team & overhead allocation,13540.00,Paid
+2026-03-11,INV-2026-0058,Revenue,Orchid Hospitality Group,Managed Retainers,Support & SLA retainer,7550.00,Paid
+2026-03-11,INV-2026-0067,Revenue,Cedar Ridge Dental,Brand Strategy,Messaging framework,4050.00,Paid
+2026-03-12,EXP-2026-0042,Expense,Research panels,Brand Strategy,Customer research & panels,3690.00,Paid
+2026-03-12,INV-2026-0052,Revenue,Northgate Properties,Web Development,Website redesign — milestone,9500.00,Paid
+2026-03-12,INV-2026-0054,Revenue,Ironleaf Manufacturing,Performance Marketing,Lead-gen campaign,14850.00,Paid
+2026-03-13,EXP-2026-0044,Expense,Contractor network,Content Production,Freelance specialists,4300.00,Paid
+2026-03-13,OPP-2026-0019,Pipeline,Pinecrest Academy,Web Development,Proposal — Website rebuild,49000.00,Proposal sent
+2026-03-15,INV-2026-0049,Revenue,Cedar Ridge Dental,Web Development,CMS migration,19500.00,Paid
+2026-03-17,INV-2026-0048,Revenue,Everline Fitness,Web Development,Web app maintenance,21600.00,Paid
+2026-03-18,INV-2026-0057,Revenue,Everline Fitness,Performance Marketing,CRO testing program,15000.00,Paid
+2026-03-19,INV-2026-0063,Revenue,Alder & Finch Legal,Managed Retainers,Fractional CMO retainer,8000.00,Paid
+2026-03-19,INV-2026-0068,Revenue,Redwood Financial Advisors,Content Production,Photography shoot,5950.00,Paid
+2026-03-20,INV-2026-0060,Revenue,Alder & Finch Legal,Managed Retainers,Support & SLA retainer,7000.00,Paid
+2026-03-21,INV-2026-0072,Revenue,Bluewater Logistics,Content Production,Blog content package,2150.00,Paid
+2026-03-23,EXP-2026-0035,Expense,Contractor network,Performance Marketing,Freelance specialists,7490.00,Paid
+2026-03-23,INV-2026-0056,Revenue,Quayside Marine,Performance Marketing,Paid search management,8850.00,Paid
+2026-03-23,INV-2026-0062,Revenue,Lumen Solar Co.,Managed Retainers,Fractional CMO retainer,5900.00,Paid
+2026-03-23,OPP-2026-0016,Pipeline,Bluewater Logistics,Web Development,Proposal — Headless CMS project,42000.00,Negotiation
+2026-03-25,INV-2026-0050,Revenue,Maplestone Insurance,Web Development,Web app maintenance,7200.00,Paid
+2026-03-25,INV-2026-0059,Revenue,Bluewater Logistics,Managed Retainers,Support & SLA retainer,9200.00,Paid
+2026-03-26,EXP-2026-0037,Expense,Internal payroll,Managed Retainers,Delivery team & overhead allocation,20220.00,Paid
+2026-03-26,EXP-2026-0038,Expense,Contractor network,Managed Retainers,Freelance specialists,6030.00,Paid
+2026-03-26,INV-2026-0051,Revenue,Orchid Hospitality Group,Web Development,CMS migration,15950.00,Paid
+2026-03-29,EXP-2026-0034,Expense,Internal payroll,Performance Marketing,Delivery team & overhead allocation,24050.00,Paid
+2026-03-29,OPP-2026-0017,Pipeline,Summit Trail Apparel,Performance Marketing,Proposal — Lead-gen engine,44000.00,Proposal sent
+2026-03-30,EXP-2026-0032,Expense,Contractor network,Web Development,Freelance specialists,10560.00,Paid
+2026-03-31,EXP-2026-0045,Expense,Production crew & studio,Content Production,"Studio, crew & equipment",3290.00,Paid
+2026-04-02,INV-2026-0093,Revenue,Bluewater Logistics,Content Production,Video production,6400.00,Paid
+2026-04-02,OPP-2026-0030,Pipeline,Lumen Solar Co.,Web Development,Proposal — E-commerce replatform,25500.00,Negotiation
+2026-04-02,OPP-2026-0031,Pipeline,Pinecrest Academy,Web Development,Proposal — Customer portal,31000.00,Proposal sent
+2026-04-04,EXP-2026-0053,Expense,Contractor network,Managed Retainers,Freelance specialists,5750.00,Paid
+2026-04-05,EXP-2026-0049,Expense,Internal payroll,Performance Marketing,Delivery team & overhead allocation,26690.00,Paid
+2026-04-05,INV-2026-0077,Revenue,Corvid Analytics,Web Development,E-commerce build — sprint,5450.00,Paid
+2026-04-05,INV-2026-0094,Revenue,Maplestone Insurance,Content Production,Video production,5350.00,Paid
+2026-04-05,INV-2026-0096,Revenue,Corvid Analytics,Content Production,Video production,4650.00,Paid
+2026-04-05,OPP-2026-0027,Pipeline,Willowbrook Senior Living,Brand Strategy,Proposal — Rebrand program,15000.00,Proposal sent
+2026-04-05,OPP-2026-0032,Pipeline,Vantage Freight,Brand Strategy,Proposal — Brand architecture review,35000.00,Verbal commit
+2026-04-06,EXP-2026-0047,Expense,Contractor network,Web Development,Freelance specialists,10070.00,Paid
+2026-04-06,EXP-2026-0055,Expense,Internal payroll,Brand Strategy,Delivery team & overhead allocation,15630.00,Paid
+2026-04-06,OPP-2026-0029,Pipeline,Summit Trail Apparel,Content Production,Proposal — Quarterly content plan,29000.00,Verbal commit
+2026-04-07,OPP-2026-0033,Pipeline,Atlas Ridge Engineering,Performance Marketing,Proposal — CRO roadmap,42000.00,Proposal sent
+2026-04-08,EXP-2026-0050,Expense,Contractor network,Performance Marketing,Freelance specialists,8020.00,Paid
+2026-04-08,INV-2026-0076,Revenue,Everline Fitness,Web Development,Website redesign — milestone,7450.00,Paid
+2026-04-10,INV-2026-0074,Revenue,Juniper Health Clinics,Web Development,Web app maintenance,14700.00,Paid
+2026-04-10,INV-2026-0088,Revenue,Maplestone Insurance,Managed Retainers,Monthly growth retainer,9350.00,Paid
+2026-04-11,EXP-2026-0052,Expense,Internal payroll,Managed Retainers,Delivery team & overhead allocation,18690.00,Paid
+2026-04-11,EXP-2026-0059,Expense,Contractor network,Content Production,Freelance specialists,4770.00,Paid
+2026-04-11,INV-2026-0080,Revenue,Pinecrest Academy,Performance Marketing,CRO testing program,6150.00,Paid
+2026-04-11,INV-2026-0091,Revenue,Granite Peak Outfitters,Brand Strategy,Brand identity system,13850.00,Paid
+2026-04-12,EXP-2026-0060,Expense,Production crew & studio,Content Production,"Studio, crew & equipment",4040.00,Paid
+2026-04-12,INV-2026-0090,Revenue,Kestrel Aviation Services,Brand Strategy,Messaging framework,10800.00,Paid
+2026-04-14,EXP-2026-0056,Expense,Contractor network,Brand Strategy,Freelance specialists,4560.00,Paid
+2026-04-15,EXP-2026-0046,Expense,Internal payroll,Web Development,Delivery team & overhead allocation,32020.00,Paid
+2026-04-15,EXP-2026-0054,Expense,Support tooling,Managed Retainers,Helpdesk & monitoring tools,3980.00,Paid
+2026-04-15,EXP-2026-0057,Expense,Research panels,Brand Strategy,Customer research & panels,3270.00,Paid
+2026-04-15,EXP-2026-0058,Expense,Internal payroll,Content Production,Delivery team & overhead allocation,16190.00,Paid
+2026-04-15,OPP-2026-0026,Pipeline,Brightwater Credit Union,Performance Marketing,Proposal — CRO roadmap,26500.00,Verbal commit
+2026-04-16,EXP-2026-0048,Expense,Cloud hosting & licenses,Web Development,"Hosting, plugins & licenses",7370.00,Paid
+2026-04-16,OPP-2026-0028,Pipeline,Vantage Freight,Performance Marketing,Proposal — CRO roadmap,48500.00,Proposal sent
+2026-04-17,INV-2026-0073,Revenue,Orchid Hospitality Group,Web Development,Landing page package,23000.00,Paid
+2026-04-19,INV-2026-0082,Revenue,Ironleaf Manufacturing,Performance Marketing,Analytics & attribution setup,14650.00,Paid
+2026-04-20,INV-2026-0078,Revenue,Ironleaf Manufacturing,Performance Marketing,Paid search management,9400.00,Paid
+2026-04-21,INV-2026-0079,Revenue,Kestrel Aviation Services,Performance Marketing,Paid search management,6750.00,Paid
+2026-04-21,INV-2026-0083,Revenue,Kestrel Aviation Services,Performance Marketing,Paid social campaign,10450.00,Paid
+2026-04-22,INV-2026-0081,Revenue,Orchid Hospitality Group,Performance Marketing,CRO testing program,12350.00,Paid
+2026-04-23,INV-2026-0092,Revenue,Quayside Marine,Content Production,Case study series,4100.00,Paid
+2026-04-26,INV-2026-0085,Revenue,Ironleaf Manufacturing,Managed Retainers,Fractional CMO retainer,6150.00,Paid
+2026-04-26,INV-2026-0087,Revenue,Harbor Lane Bakery,Managed Retainers,Monthly growth retainer,5000.00,Paid
+2026-04-28,INV-2026-0075,Revenue,Kestrel Aviation Services,Web Development,CMS migration,14550.00,Paid
+2026-04-28,INV-2026-0084,Revenue,Corvid Analytics,Managed Retainers,Support & SLA retainer,7150.00,Paid
+2026-04-30,EXP-2026-0051,Expense,Ad platform spend,Performance Marketing,Media spend (non-billable),5850.00,Paid
+2026-04-30,INV-2026-0086,Revenue,Orchid Hospitality Group,Managed Retainers,Fractional CMO retainer,4850.00,Paid
+2026-04-30,INV-2026-0089,Revenue,Ironleaf Manufacturing,Managed Retainers,Support & SLA retainer,3500.00,Paid
+2026-04-30,INV-2026-0095,Revenue,Kestrel Aviation Services,Content Production,Case study series,11700.00,Paid
+2026-04-30,OPP-2026-0025,Pipeline,Ironleaf Manufacturing,Managed Retainers,Proposal — Fractional CMO engagement,44000.00,Discovery
+2026-05-01,EXP-2026-0062,Expense,Contractor network,Web Development,Freelance specialists,11900.00,Paid
+2026-05-01,EXP-2026-0065,Expense,Contractor network,Performance Marketing,Freelance specialists,9740.00,Paid
+2026-05-03,INV-2026-0105,Revenue,Everline Fitness,Performance Marketing,CRO testing program,12250.00,Paid
+2026-05-04,EXP-2026-0073,Expense,Internal payroll,Content Production,Delivery team & overhead allocation,18820.00,Paid
+2026-05-04,INV-2026-0098,Revenue,Lumen Solar Co.,Web Development,Website redesign — milestone,23550.00,Paid
+2026-05-04,OPP-2026-0034,Pipeline,Tidewater Clinics,Brand Strategy,Proposal — Positioning sprint,16500.00,Verbal commit
+2026-05-05,INV-2026-0103,Revenue,Cedar Ridge Dental,Performance Marketing,CRO testing program,7850.00,Paid
+2026-05-05,INV-2026-0108,Revenue,Redwood Financial Advisors,Managed Retainers,Monthly growth retainer,4500.00,Paid
+2026-05-06,INV-2026-0110,Revenue,Bluewater Logistics,Managed Retainers,Monthly growth retainer,5850.00,Paid
+2026-05-07,OPP-2026-0035,Pipeline,Brightwater Credit Union,Brand Strategy,Proposal — Positioning sprint,18000.00,Negotiation
+2026-05-07,OPP-2026-0039,Pipeline,Corvid Analytics,Performance Marketing,Proposal — Paid media program,25000.00,Proposal sent
+2026-05-08,EXP-2026-0072,Expense,Research panels,Brand Strategy,Customer research & panels,4620.00,Paid
+2026-05-10,EXP-2026-0061,Expense,Internal payroll,Web Development,Delivery team & overhead allocation,33830.00,Paid
+2026-05-11,INV-2026-0107,Revenue,Maplestone Insurance,Managed Retainers,Monthly growth retainer,6600.00,Paid
+2026-05-11,INV-2026-0121,Revenue,Ironleaf Manufacturing,Content Production,Blog content package,10650.00,Paid
+2026-05-12,EXP-2026-0066,Expense,Ad platform spend,Performance Marketing,Media spend (non-billable),7270.00,Paid
+2026-05-13,EXP-2026-0063,Expense,Cloud hosting & licenses,Web Development,"Hosting, plugins & licenses",8060.00,Paid
+2026-05-14,EXP-2026-0070,Expense,Internal payroll,Brand Strategy,Delivery team & overhead allocation,20010.00,Paid
+2026-05-14,INV-2026-0111,Revenue,Quayside Marine,Managed Retainers,Monthly growth retainer,4950.00,Paid
+2026-05-14,INV-2026-0119,Revenue,Ironleaf Manufacturing,Content Production,Video production,9400.00,Paid
+2026-05-15,INV-2026-0109,Revenue,Harbor Lane Bakery,Managed Retainers,Support & SLA retainer,8750.00,Paid
+2026-05-15,OPP-2026-0038,Pipeline,Tidewater Clinics,Brand Strategy,Proposal — Rebrand program,16000.00,Negotiation
+2026-05-18,EXP-2026-0064,Expense,Internal payroll,Performance Marketing,Delivery team & overhead allocation,31650.00,Paid
+2026-05-18,INV-2026-0116,Revenue,Bluewater Logistics,Brand Strategy,Positioning workshop,20700.00,Paid
+2026-05-18,INV-2026-0120,Revenue,Lumen Solar Co.,Content Production,Photography shoot,3800.00,Paid
+2026-05-18,OPP-2026-0037,Pipeline,Ironleaf Manufacturing,Web Development,Proposal — E-commerce replatform,45500.00,Negotiation
+2026-05-19,EXP-2026-0069,Expense,Support tooling,Managed Retainers,Helpdesk & monitoring tools,5500.00,Paid
+2026-05-20,INV-2026-0118,Revenue,Juniper Health Clinics,Content Production,Case study series,6650.00,Paid
+2026-05-21,INV-2026-0097,Revenue,Ironleaf Manufacturing,Web Development,CMS migration,23900.00,Paid
+2026-05-21,INV-2026-0114,Revenue,Corvid Analytics,Managed Retainers,Monthly growth retainer,3900.00,Paid
+2026-05-21,INV-2026-0115,Revenue,Lumen Solar Co.,Brand Strategy,Brand identity system,8300.00,Paid
+2026-05-22,INV-2026-0102,Revenue,Lumen Solar Co.,Performance Marketing,CRO testing program,7200.00,Paid
+2026-05-23,EXP-2026-0068,Expense,Contractor network,Managed Retainers,Freelance specialists,7370.00,Paid
+2026-05-23,INV-2026-0112,Revenue,Quayside Marine,Managed Retainers,Monthly growth retainer,4750.00,Paid
+2026-05-24,EXP-2026-0071,Expense,Contractor network,Brand Strategy,Freelance specialists,6290.00,Paid
+2026-05-24,INV-2026-0104,Revenue,Cedar Ridge Dental,Performance Marketing,Lead-gen campaign,14750.00,Paid
+2026-05-24,INV-2026-0117,Revenue,Granite Peak Outfitters,Brand Strategy,Brand identity system,10950.00,Paid
+2026-05-25,EXP-2026-0075,Expense,Production crew & studio,Content Production,"Studio, crew & equipment",4100.00,Paid
+2026-05-25,INV-2026-0099,Revenue,Ironleaf Manufacturing,Web Development,Landing page package,25400.00,Paid
+2026-05-25,INV-2026-0113,Revenue,Lumen Solar Co.,Managed Retainers,Monthly growth retainer,6450.00,Paid
+2026-05-26,INV-2026-0100,Revenue,Kestrel Aviation Services,Web Development,Landing page package,6950.00,Paid
+2026-05-26,OPP-2026-0036,Pipeline,Tidewater Clinics,Performance Marketing,Proposal — Lead-gen engine,19000.00,Proposal sent
+2026-05-27,EXP-2026-0074,Expense,Contractor network,Content Production,Freelance specialists,5880.00,Paid
+2026-05-29,INV-2026-0106,Revenue,Orchid Hospitality Group,Performance Marketing,Analytics & attribution setup,6300.00,Paid
+2026-05-30,INV-2026-0101,Revenue,Juniper Health Clinics,Performance Marketing,Lead-gen campaign,7600.00,Paid
+2026-05-31,EXP-2026-0067,Expense,Internal payroll,Managed Retainers,Delivery team & overhead allocation,23990.00,Paid
+2026-06-01,INV-2026-0143,Revenue,Harbor Lane Bakery,Managed Retainers,Support & SLA retainer,7400.00,Paid
+2026-06-02,EXP-2026-0087,Expense,Research panels,Brand Strategy,Customer research & panels,3670.00,Paid
+2026-06-02,INV-2026-0123,Revenue,Harbor Lane Bakery,Web Development,Accessibility remediation,23950.00,Paid
+2026-06-02,INV-2026-0146,Revenue,Ironleaf Manufacturing,Brand Strategy,Brand identity system,8500.00,Paid
+2026-06-03,EXP-2026-0083,Expense,Contractor network,Managed Retainers,Freelance specialists,6560.00,Paid
+2026-06-04,INV-2026-0137,Revenue,Everline Fitness,Managed Retainers,Support & SLA retainer,4700.00,Paid
+2026-06-04,INV-2026-0142,Revenue,Bluewater Logistics,Managed Retainers,Fractional CMO retainer,7000.00,Paid
+2026-06-04,OPP-2026-0040,Pipeline,Juniper Health Clinics,Web Development,Proposal — E-commerce replatform,34500.00,Negotiation
+2026-06-05,INV-2026-0127,Revenue,Cedar Ridge Dental,Web Development,Website redesign — milestone,13400.00,Paid
+2026-06-05,INV-2026-0133,Revenue,Maplestone Insurance,Performance Marketing,Analytics & attribution setup,4500.00,Paid
+2026-06-05,INV-2026-0136,Revenue,Everline Fitness,Managed Retainers,Fractional CMO retainer,4550.00,Paid
+2026-06-05,OPP-2026-0047,Pipeline,Vantage Freight,Brand Strategy,Proposal — Brand architecture review,16500.00,Discovery
+2026-06-06,INV-2026-0126,Revenue,Everline Fitness,Web Development,Accessibility remediation,9800.00,Paid
+2026-06-06,OPP-2026-0042,Pipeline,Brightwater Credit Union,Managed Retainers,Proposal — Annual growth retainer,12500.00,Negotiation
+2026-06-08,EXP-2026-0076,Expense,Internal payroll,Web Development,Delivery team & overhead allocation,33530.00,Paid
+2026-06-08,INV-2026-0147,Revenue,Redwood Financial Advisors,Content Production,Video production,7600.00,Paid
+2026-06-10,EXP-2026-0080,Expense,Contractor network,Performance Marketing,Freelance specialists,8870.00,Paid
+2026-06-10,EXP-2026-0090,Expense,Production crew & studio,Content Production,"Studio, crew & equipment",3820.00,Paid
+2026-06-10,INV-2026-0128,Revenue,Orchid Hospitality Group,Performance Marketing,CRO testing program,8400.00,Paid
+2026-06-10,OPP-2026-0043,Pipeline,Brightwater Credit Union,Performance Marketing,Proposal — Paid media program,48000.00,Verbal commit
+2026-06-11,EXP-2026-0086,Expense,Contractor network,Brand Strategy,Freelance specialists,5510.00,Paid
+2026-06-12,EXP-2026-0085,Expense,Internal payroll,Brand Strategy,Delivery team & overhead allocation,16670.00,Paid
+2026-06-13,INV-2026-0125,Revenue,Harbor Lane Bakery,Web Development,E-commerce build — sprint,11650.00,Paid
+2026-06-13,INV-2026-0130,Revenue,Quayside Marine,Performance Marketing,CRO testing program,10650.00,Paid
+2026-06-13,INV-2026-0134,Revenue,Ironleaf Manufacturing,Performance Marketing,Paid social campaign,9750.00,Paid
+2026-06-13,INV-2026-0140,Revenue,Pinecrest Academy,Managed Retainers,Monthly growth retainer,5050.00,Paid
+2026-06-15,EXP-2026-0079,Expense,Internal payroll,Performance Marketing,Delivery team & overhead allocation,30820.00,Paid
+2026-06-16,INV-2026-0144,Revenue,Ironleaf Manufacturing,Brand Strategy,Messaging framework,13350.00,Paid
+2026-06-16,OPP-2026-0046,Pipeline,Willowbrook Senior Living,Performance Marketing,Proposal — CRO roadmap,19000.00,Verbal commit
+2026-06-17,INV-2026-0129,Revenue,Kestrel Aviation Services,Performance Marketing,CRO testing program,8950.00,Paid
+2026-06-20,INV-2026-0150,Revenue,Cedar Ridge Dental,Content Production,Case study series,9250.00,Paid
+2026-06-21,INV-2026-0122,Revenue,Ironleaf Manufacturing,Web Development,Accessibility remediation,10350.00,Paid
+2026-06-22,INV-2026-0131,Revenue,Orchid Hospitality Group,Performance Marketing,Analytics & attribution setup,7250.00,Paid
+2026-06-22,OPP-2026-0045,Pipeline,Ironleaf Manufacturing,Brand Strategy,Proposal — Brand architecture review,13500.00,Verbal commit
+2026-06-23,OPP-2026-0044,Pipeline,Lumen Solar Co.,Web Development,Proposal — Website rebuild,46500.00,Verbal commit
+2026-06-24,EXP-2026-0077,Expense,Contractor network,Web Development,Freelance specialists,9950.00,Paid
+2026-06-24,OPP-2026-0041,Pipeline,Ironleaf Manufacturing,Brand Strategy,Proposal — Positioning sprint,35000.00,Discovery
+2026-06-25,INV-2026-0148,Revenue,Quayside Marine,Content Production,Blog content package,9450.00,Paid
+2026-06-26,EXP-2026-0081,Expense,Ad platform spend,Performance Marketing,Media spend (non-billable),6230.00,Paid
+2026-06-26,INV-2026-0139,Revenue,Maplestone Insurance,Managed Retainers,Monthly growth retainer,5600.00,Paid
+2026-06-27,EXP-2026-0078,Expense,Cloud hosting & licenses,Web Development,"Hosting, plugins & licenses",7560.00,Paid
+2026-06-27,EXP-2026-0084,Expense,Support tooling,Managed Retainers,Helpdesk & monitoring tools,4930.00,Paid
+2026-06-27,EXP-2026-0089,Expense,Contractor network,Content Production,Freelance specialists,5150.00,Paid
+2026-06-27,INV-2026-0135,Revenue,Lumen Solar Co.,Performance Marketing,Paid social campaign,4050.00,Paid
+2026-06-28,EXP-2026-0082,Expense,Internal payroll,Managed Retainers,Delivery team & overhead allocation,21870.00,Paid
+2026-06-28,INV-2026-0124,Revenue,Northgate Properties,Web Development,CMS migration,7900.00,Paid
+2026-06-28,INV-2026-0132,Revenue,Orchid Hospitality Group,Performance Marketing,Paid social campaign,10300.00,Paid
+2026-06-28,INV-2026-0145,Revenue,Maplestone Insurance,Brand Strategy,Messaging framework,14600.00,Paid
+2026-06-29,EXP-2026-0088,Expense,Internal payroll,Content Production,Delivery team & overhead allocation,15700.00,Paid
+2026-06-29,INV-2026-0138,Revenue,Cedar Ridge Dental,Managed Retainers,Fractional CMO retainer,7750.00,Paid
+2026-06-29,INV-2026-0149,Revenue,Everline Fitness,Content Production,Blog content package,6100.00,Paid
+2026-06-30,INV-2026-0141,Revenue,Northgate Properties,Managed Retainers,Monthly growth retainer,5600.00,Paid
+2026-07-01,EXP-2026-0103,Expense,Internal payroll,Content Production,Delivery team & overhead allocation,14580.00,Paid
+2026-07-01,INV-2026-0163,Revenue,Juniper Health Clinics,Managed Retainers,Monthly growth retainer,8100.00,Paid
+2026-07-02,EXP-2026-0105,Expense,Production crew & studio,Content Production,"Studio, crew & equipment",3480.00,Paid
+2026-07-02,INV-2026-0157,Revenue,Ironleaf Manufacturing,Performance Marketing,Paid social campaign,5950.00,Paid
+2026-07-02,INV-2026-0161,Revenue,Harbor Lane Bakery,Managed Retainers,Fractional CMO retainer,6000.00,Paid
+2026-07-02,INV-2026-0168,Revenue,Cedar Ridge Dental,Brand Strategy,Positioning workshop,15800.00,Paid
+2026-07-02,OPP-2026-0053,Pipeline,Sable Creek Wineries,Managed Retainers,Proposal — Fractional CMO engagement,26500.00,Discovery
+2026-07-03,INV-2026-0172,Revenue,Alder & Finch Legal,Content Production,Video production,7250.00,Paid
+2026-07-03,OPP-2026-0049,Pipeline,Summit Trail Apparel,Performance Marketing,Proposal — Lead-gen engine,19000.00,Negotiation
+2026-07-04,EXP-2026-0092,Expense,Contractor network,Web Development,Freelance specialists,9290.00,Paid
+2026-07-04,EXP-2026-0099,Expense,Support tooling,Managed Retainers,Helpdesk & monitoring tools,3880.00,Paid
+2026-07-04,EXP-2026-0101,Expense,Contractor network,Brand Strategy,Freelance specialists,4040.00,Paid
+2026-07-05,INV-2026-0156,Revenue,Ironleaf Manufacturing,Performance Marketing,Lead-gen campaign,7450.00,Paid
+2026-07-06,INV-2026-0167,Revenue,Corvid Analytics,Managed Retainers,Fractional CMO retainer,4000.00,Paid
+2026-07-08,EXP-2026-0094,Expense,Internal payroll,Performance Marketing,Delivery team & overhead allocation,20420.00,Paid
+2026-07-08,INV-2026-0158,Revenue,Redwood Financial Advisors,Performance Marketing,CRO testing program,7350.00,Paid
+2026-07-09,EXP-2026-0102,Expense,Research panels,Brand Strategy,Customer research & panels,3140.00,Paid
+2026-07-09,INV-2026-0154,Revenue,Ironleaf Manufacturing,Web Development,CMS migration,17400.00,Paid
+2026-07-11,INV-2026-0173,Revenue,Ironleaf Manufacturing,Content Production,Photography shoot,8850.00,Paid
+2026-07-12,EXP-2026-0097,Expense,Internal payroll,Managed Retainers,Delivery team & overhead allocation,17060.00,Paid
+2026-07-15,INV-2026-0169,Revenue,Ironleaf Manufacturing,Brand Strategy,Positioning workshop,12500.00,Paid
+2026-07-16,INV-2026-0153,Revenue,Redwood Financial Advisors,Web Development,Website redesign — milestone,12050.00,Paid
+2026-07-17,OPP-2026-0050,Pipeline,Willowbrook Senior Living,Performance Marketing,Proposal — Paid media program,30000.00,Negotiation
+2026-07-18,INV-2026-0155,Revenue,Bluewater Logistics,Performance Marketing,Paid social campaign,5050.00,Paid
+2026-07-18,OPP-2026-0048,Pipeline,Sable Creek Wineries,Brand Strategy,Proposal — Rebrand program,30500.00,Verbal commit
+2026-07-19,INV-2026-0152,Revenue,Everline Fitness,Web Development,Web app maintenance,7550.00,Paid
+2026-07-19,INV-2026-0165,Revenue,Fairhaven Realty,Managed Retainers,Support & SLA retainer,4800.00,Paid
+2026-07-20,EXP-2026-0093,Expense,Cloud hosting & licenses,Web Development,"Hosting, plugins & licenses",7240.00,Paid
+2026-07-21,EXP-2026-0091,Expense,Internal payroll,Web Development,Delivery team & overhead allocation,30450.00,Paid
+2026-07-22,INV-2026-0171,Revenue,Northgate Properties,Content Production,Blog content package,4500.00,Paid
+2026-07-23,EXP-2026-0100,Expense,Internal payroll,Brand Strategy,Delivery team & overhead allocation,12220.00,Paid
+2026-07-23,INV-2026-0160,Revenue,Orchid Hospitality Group,Performance Marketing,CRO testing program,13650.00,Overdue
+2026-07-24,EXP-2026-0096,Expense,Ad platform spend,Performance Marketing,Media spend (non-billable),5130.00,Paid
+2026-07-24,INV-2026-0159,Revenue,Ironleaf Manufacturing,Performance Marketing,Paid social campaign,9450.00,Paid
+2026-07-24,INV-2026-0170,Revenue,Ironleaf Manufacturing,Content Production,Video production,7250.00,Paid
+2026-07-25,INV-2026-0164,Revenue,Kestrel Aviation Services,Managed Retainers,Fractional CMO retainer,7350.00,Paid
+2026-07-25,OPP-2026-0052,Pipeline,Redwood Financial Advisors,Web Development,Proposal — E-commerce replatform,43500.00,Negotiation
+2026-07-27,EXP-2026-0098,Expense,Contractor network,Managed Retainers,Freelance specialists,5110.00,Paid
+2026-07-27,INV-2026-0162,Revenue,Juniper Health Clinics,Managed Retainers,Support & SLA retainer,4900.00,Paid
+2026-07-28,INV-2026-0151,Revenue,Everline Fitness,Web Development,E-commerce build — sprint,25150.00,Paid
+2026-07-29,EXP-2026-0095,Expense,Contractor network,Performance Marketing,Freelance specialists,6720.00,Paid
+2026-07-30,EXP-2026-0104,Expense,Contractor network,Content Production,Freelance specialists,4560.00,Paid
+2026-07-30,INV-2026-0174,Revenue,Cedar Ridge Dental,Content Production,Case study series,3400.00,Paid
+2026-07-30,OPP-2026-0051,Pipeline,Maplestone Insurance,Brand Strategy,Proposal — Rebrand program,36000.00,Negotiation
+2026-07-31,INV-2026-0166,Revenue,Fairhaven Realty,Managed Retainers,Support & SLA retainer,5800.00,Paid
+2026-08-01,EXP-2026-0120,Expense,Production crew & studio,Content Production,"Studio, crew & equipment",3320.00,Paid
+2026-08-02,INV-2026-0200,Revenue,Northgate Properties,Content Production,Blog content package,3400.00,Paid
+2026-08-04,EXP-2026-0106,Expense,Internal payroll,Web Development,Delivery team & overhead allocation,33770.00,Paid
+2026-08-05,EXP-2026-0118,Expense,Internal payroll,Content Production,Delivery team & overhead allocation,14470.00,Paid
+2026-08-05,INV-2026-0192,Revenue,Pinecrest Academy,Managed Retainers,Fractional CMO retainer,4600.00,Paid
+2026-08-06,EXP-2026-0108,Expense,Cloud hosting & licenses,Web Development,"Hosting, plugins & licenses",7150.00,Paid
+2026-08-07,OPP-2026-0058,Pipeline,Atlas Ridge Engineering,Performance Marketing,Proposal — CRO roadmap,16500.00,Verbal commit
+2026-08-08,EXP-2026-0109,Expense,Internal payroll,Performance Marketing,Delivery team & overhead allocation,29410.00,Paid
+2026-08-08,INV-2026-0182,Revenue,Bluewater Logistics,Performance Marketing,Lead-gen campaign,7500.00,Paid
+2026-08-09,EXP-2026-0119,Expense,Contractor network,Content Production,Freelance specialists,4510.00,Paid
+2026-08-10,EXP-2026-0116,Expense,Contractor network,Brand Strategy,Freelance specialists,4900.00,Paid
+2026-08-11,INV-2026-0194,Revenue,Alder & Finch Legal,Brand Strategy,Positioning workshop,18300.00,Paid
+2026-08-12,EXP-2026-0113,Expense,Contractor network,Managed Retainers,Freelance specialists,6000.00,Paid
+2026-08-12,INV-2026-0187,Revenue,Granite Peak Outfitters,Managed Retainers,Monthly growth retainer,6100.00,Paid
+2026-08-12,OPP-2026-0056,Pipeline,Halden Biotech,Performance Marketing,Proposal — Paid media program,10000.00,Verbal commit
+2026-08-13,INV-2026-0197,Revenue,Juniper Health Clinics,Content Production,Blog content package,3550.00,Paid
+2026-08-13,INV-2026-0198,Revenue,Cedar Ridge Dental,Content Production,Video production,9400.00,Paid
+2026-08-13,INV-2026-0199,Revenue,Ironleaf Manufacturing,Content Production,Photography shoot,8500.00,Paid
+2026-08-15,EXP-2026-0110,Expense,Contractor network,Performance Marketing,Freelance specialists,9030.00,Paid
+2026-08-15,EXP-2026-0117,Expense,Research panels,Brand Strategy,Customer research & panels,4160.00,Paid
+2026-08-15,INV-2026-0196,Revenue,Lumen Solar Co.,Content Production,Photography shoot,8750.00,Paid
+2026-08-16,EXP-2026-0107,Expense,Contractor network,Web Development,Freelance specialists,10770.00,Paid
+2026-08-16,EXP-2026-0115,Expense,Internal payroll,Brand Strategy,Delivery team & overhead allocation,17200.00,Paid
+2026-08-17,INV-2026-0175,Revenue,Quayside Marine,Web Development,Accessibility remediation,23900.00,Paid
+2026-08-17,OPP-2026-0054,Pipeline,Brightwater Credit Union,Brand Strategy,Proposal — Positioning sprint,44000.00,Discovery
+2026-08-19,INV-2026-0180,Revenue,Bluewater Logistics,Performance Marketing,CRO testing program,11950.00,Paid
+2026-08-19,INV-2026-0195,Revenue,Kestrel Aviation Services,Brand Strategy,Messaging framework,14250.00,Paid
+2026-08-19,OPP-2026-0055,Pipeline,Sable Creek Wineries,Brand Strategy,Proposal — Brand architecture review,15000.00,Proposal sent
+2026-08-20,EXP-2026-0112,Expense,Internal payroll,Managed Retainers,Delivery team & overhead allocation,17830.00,Paid
+2026-08-20,INV-2026-0177,Revenue,Orchid Hospitality Group,Web Development,Accessibility remediation,8600.00,Paid
+2026-08-21,INV-2026-0179,Revenue,Bluewater Logistics,Web Development,Web app maintenance,6700.00,Paid
+2026-08-21,INV-2026-0181,Revenue,Kestrel Aviation Services,Performance Marketing,Paid search management,14700.00,Paid
+2026-08-21,INV-2026-0190,Revenue,Granite Peak Outfitters,Managed Retainers,Fractional CMO retainer,5050.00,Paid
+2026-08-22,INV-2026-0178,Revenue,Kestrel Aviation Services,Web Development,Accessibility remediation,18350.00,Paid
+2026-08-22,INV-2026-0191,Revenue,Bluewater Logistics,Managed Retainers,Monthly growth retainer,6000.00,Paid
+2026-08-22,OPP-2026-0057,Pipeline,Atlas Ridge Engineering,Brand Strategy,Proposal — Positioning sprint,36000.00,Proposal sent
+2026-08-24,INV-2026-0193,Revenue,Juniper Health Clinics,Managed Retainers,Fractional CMO retainer,6600.00,Paid
+2026-08-25,INV-2026-0176,Revenue,Everline Fitness,Web Development,Web app maintenance,17450.00,Paid
+2026-08-25,INV-2026-0184,Revenue,Redwood Financial Advisors,Performance Marketing,Paid search management,6950.00,Paid
+2026-08-26,EXP-2026-0111,Expense,Ad platform spend,Performance Marketing,Media spend (non-billable),6070.00,Paid
+2026-08-26,INV-2026-0185,Revenue,Juniper Health Clinics,Performance Marketing,Analytics & attribution setup,2800.00,Paid
+2026-08-27,INV-2026-0186,Revenue,Bluewater Logistics,Managed Retainers,Fractional CMO retainer,4750.00,Paid
+2026-08-29,INV-2026-0188,Revenue,Bluewater Logistics,Managed Retainers,Support & SLA retainer,6900.00,Paid
+2026-08-30,INV-2026-0183,Revenue,Bluewater Logistics,Performance Marketing,Paid search management,12100.00,Overdue
+2026-08-31,EXP-2026-0114,Expense,Support tooling,Managed Retainers,Helpdesk & monitoring tools,4070.00,Paid
+2026-08-31,INV-2026-0189,Revenue,Quayside Marine,Managed Retainers,Support & SLA retainer,6250.00,Paid
+2026-08-31,OPP-2026-0059,Pipeline,Tidewater Clinics,Brand Strategy,Proposal — Rebrand program,40000.00,Proposal sent
+2026-09-01,EXP-2026-0130,Expense,Internal payroll,Brand Strategy,Delivery team & overhead allocation,19420.00,Paid
+2026-09-01,INV-2026-0220,Revenue,Lumen Solar Co.,Managed Retainers,Support & SLA retainer,4550.00,Paid
+2026-09-04,EXP-2026-0127,Expense,Internal payroll,Managed Retainers,Delivery team & overhead allocation,24000.00,Paid
+2026-09-04,EXP-2026-0131,Expense,Contractor network,Brand Strategy,Freelance specialists,5790.00,Paid
+2026-09-04,INV-2026-0222,Revenue,Redwood Financial Advisors,Brand Strategy,Messaging framework,16200.00,Paid
+2026-09-06,EXP-2026-0126,Expense,Ad platform spend,Performance Marketing,Media spend (non-billable),7970.00,Paid
+2026-09-06,INV-2026-0201,Revenue,Ironleaf Manufacturing,Web Development,Web app maintenance,11500.00,Paid
+2026-09-06,INV-2026-0212,Revenue,Northgate Properties,Performance Marketing,Analytics & attribution setup,10550.00,Paid
+2026-09-07,EXP-2026-0129,Expense,Support tooling,Managed Retainers,Helpdesk & monitoring tools,5380.00,Paid
+2026-09-07,INV-2026-0207,Revenue,Redwood Financial Advisors,Performance Marketing,Paid social campaign,9200.00,Paid
+2026-09-07,INV-2026-0217,Revenue,Alder & Finch Legal,Managed Retainers,Support & SLA retainer,9250.00,Paid
+2026-09-07,INV-2026-0224,Revenue,Corvid Analytics,Brand Strategy,Positioning workshop,7900.00,Paid
+2026-09-07,INV-2026-0227,Revenue,Juniper Health Clinics,Content Production,Photography shoot,6200.00,Overdue
+2026-09-08,INV-2026-0209,Revenue,Maplestone Insurance,Performance Marketing,Lead-gen campaign,11650.00,Paid
+2026-09-08,INV-2026-0226,Revenue,Maplestone Insurance,Content Production,Blog content package,10150.00,Invoiced
+2026-09-08,OPP-2026-0062,Pipeline,Corvid Analytics,Web Development,Proposal — E-commerce replatform,42500.00,Proposal sent
+2026-09-09,INV-2026-0225,Revenue,Bluewater Logistics,Content Production,Blog content package,4500.00,Invoiced
+2026-09-10,INV-2026-0230,Revenue,Orchid Hospitality Group,Content Production,Video production,5200.00,Paid
+2026-09-12,EXP-2026-0134,Expense,Contractor network,Content Production,Freelance specialists,5390.00,Paid
+2026-09-12,EXP-2026-0135,Expense,Production crew & studio,Content Production,"Studio, crew & equipment",4170.00,Paid
+2026-09-12,INV-2026-0229,Revenue,Quayside Marine,Content Production,Blog content package,6400.00,Paid
+2026-09-14,EXP-2026-0133,Expense,Internal payroll,Content Production,Delivery team & overhead allocation,18270.00,Paid
+2026-09-14,OPP-2026-0065,Pipeline,Redwood Financial Advisors,Managed Retainers,Proposal — Annual growth retainer,13500.00,Proposal sent
+2026-09-15,INV-2026-0213,Revenue,Maplestone Insurance,Managed Retainers,Monthly growth retainer,5700.00,Paid
+2026-09-15,INV-2026-0221,Revenue,Granite Peak Outfitters,Managed Retainers,Monthly growth retainer,3650.00,Paid
+2026-09-15,OPP-2026-0060,Pipeline,Tidewater Clinics,Web Development,Proposal — E-commerce replatform,18000.00,Proposal sent
+2026-09-15,OPP-2026-0064,Pipeline,Maplestone Insurance,Performance Marketing,Proposal — Lead-gen engine,46500.00,Discovery
+2026-09-16,INV-2026-0214,Revenue,Lumen Solar Co.,Managed Retainers,Fractional CMO retainer,7900.00,Paid
+2026-09-17,OPP-2026-0063,Pipeline,Tidewater Clinics,Brand Strategy,Proposal — Brand architecture review,43500.00,Discovery
+2026-09-18,EXP-2026-0125,Expense,Contractor network,Performance Marketing,Freelance specialists,9930.00,Paid
+2026-09-18,INV-2026-0218,Revenue,Ironleaf Manufacturing,Managed Retainers,Monthly growth retainer,4700.00,Paid
+2026-09-18,INV-2026-0223,Revenue,Granite Peak Outfitters,Brand Strategy,Brand identity system,11200.00,Invoiced
+2026-09-19,INV-2026-0210,Revenue,Juniper Health Clinics,Performance Marketing,Paid search management,7100.00,Invoiced
+2026-09-20,EXP-2026-0124,Expense,Internal payroll,Performance Marketing,Delivery team & overhead allocation,34090.00,Paid
+2026-09-20,OPP-2026-0061,Pipeline,Tidewater Clinics,Performance Marketing,Proposal — Lead-gen engine,45000.00,Proposal sent
+2026-09-21,EXP-2026-0121,Expense,Internal payroll,Web Development,Delivery team & overhead allocation,45370.00,Paid
+2026-09-21,INV-2026-0206,Revenue,Harbor Lane Bakery,Performance Marketing,Paid social campaign,6200.00,Paid
+2026-09-23,EXP-2026-0132,Expense,Research panels,Brand Strategy,Customer research & panels,4460.00,Paid
+2026-09-24,EXP-2026-0123,Expense,Cloud hosting & licenses,Web Development,"Hosting, plugins & licenses",9480.00,Paid
+2026-09-24,INV-2026-0205,Revenue,Maplestone Insurance,Web Development,Accessibility remediation,6550.00,Paid
+2026-09-24,INV-2026-0208,Revenue,Corvid Analytics,Performance Marketing,Paid search management,10850.00,Paid
+2026-09-24,INV-2026-0211,Revenue,Kestrel Aviation Services,Performance Marketing,Paid search management,10250.00,Invoiced
+2026-09-27,INV-2026-0204,Revenue,Lumen Solar Co.,Web Development,CMS migration,25750.00,Paid
+2026-09-27,INV-2026-0219,Revenue,Bluewater Logistics,Managed Retainers,Monthly growth retainer,5250.00,Paid
+2026-09-27,INV-2026-0228,Revenue,Bluewater Logistics,Content Production,Case study series,9550.00,Paid
+2026-09-28,EXP-2026-0122,Expense,Contractor network,Web Development,Freelance specialists,13720.00,Paid
+2026-09-28,INV-2026-0215,Revenue,Maplestone Insurance,Managed Retainers,Fractional CMO retainer,5150.00,Paid
+2026-09-29,INV-2026-0203,Revenue,Corvid Analytics,Web Development,E-commerce build — sprint,17950.00,Paid
+2026-09-29,INV-2026-0216,Revenue,Ironleaf Manufacturing,Managed Retainers,Support & SLA retainer,7400.00,Invoiced
+2026-09-30,EXP-2026-0128,Expense,Contractor network,Managed Retainers,Freelance specialists,7640.00,Paid
+2026-09-30,INV-2026-0202,Revenue,Redwood Financial Advisors,Web Development,CMS migration,23000.00,Invoiced
+2026-10-02,INV-2026-0233,Revenue,Orchid Hospitality Group,Web Development,CMS migration,13700.00,Invoiced
+2026-10-02,INV-2026-0242,Revenue,Harbor Lane Bakery,Performance Marketing,Paid social campaign,4600.00,Overdue
+2026-10-03,INV-2026-0234,Revenue,Ironleaf Manufacturing,Web Development,CMS migration,18150.00,Paid
+2026-10-04,INV-2026-0236,Revenue,Juniper Health Clinics,Web Development,E-commerce build — sprint,15750.00,Paid
+2026-10-04,OPP-2026-0070,Pipeline,Atlas Ridge Engineering,Web Development,Proposal — Customer portal,46500.00,Discovery
+2026-10-05,EXP-2026-0141,Expense,Ad platform spend,Performance Marketing,Media spend (non-billable),7340.00,Paid
+2026-10-05,EXP-2026-0150,Expense,Production crew & studio,Content Production,"Studio, crew & equipment",4280.00,Paid
+2026-10-05,INV-2026-0250,Revenue,Kestrel Aviation Services,Managed Retainers,Fractional CMO retainer,4100.00,Invoiced
+2026-10-06,INV-2026-0241,Revenue,Juniper Health Clinics,Performance Marketing,Analytics & attribution setup,8250.00,Invoiced
+2026-10-07,EXP-2026-0136,Expense,Internal payroll,Web Development,Delivery team & overhead allocation,43240.00,Paid
+2026-10-08,EXP-2026-0145,Expense,Internal payroll,Brand Strategy,Delivery team & overhead allocation,17940.00,Paid
+2026-10-08,INV-2026-0248,Revenue,Ironleaf Manufacturing,Managed Retainers,Fractional CMO retainer,5150.00,Invoiced
+2026-10-08,OPP-2026-0071,Pipeline,Tidewater Clinics,Web Development,Proposal — E-commerce replatform,25000.00,Verbal commit
+2026-10-09,EXP-2026-0137,Expense,Contractor network,Web Development,Freelance specialists,13560.00,Paid
+2026-10-10,INV-2026-0243,Revenue,Quayside Marine,Performance Marketing,Analytics & attribution setup,13750.00,Invoiced
+2026-10-10,OPP-2026-0069,Pipeline,Juniper Health Clinics,Web Development,Proposal — Headless CMS project,37000.00,Proposal sent
+2026-10-11,EXP-2026-0140,Expense,Contractor network,Performance Marketing,Freelance specialists,9830.00,Paid
+2026-10-11,INV-2026-0231,Revenue,Bluewater Logistics,Web Development,Accessibility remediation,19000.00,Invoiced
+2026-10-11,INV-2026-0246,Revenue,Maplestone Insurance,Managed Retainers,Fractional CMO retainer,7800.00,Invoiced
+2026-10-11,INV-2026-0258,Revenue,Maplestone Insurance,Content Production,Case study series,9950.00,Paid
+2026-10-12,EXP-2026-0142,Expense,Internal payroll,Managed Retainers,Delivery team & overhead allocation,22970.00,Paid
+2026-10-12,INV-2026-0240,Revenue,Ironleaf Manufacturing,Performance Marketing,Analytics & attribution setup,12350.00,Overdue
+2026-10-12,INV-2026-0249,Revenue,Granite Peak Outfitters,Managed Retainers,Support & SLA retainer,7000.00,Invoiced
+2026-10-12,INV-2026-0252,Revenue,Juniper Health Clinics,Brand Strategy,Brand identity system,7650.00,Paid
+2026-10-13,OPP-2026-0073,Pipeline,Halden Biotech,Web Development,Proposal — Customer portal,35500.00,Proposal sent
+2026-10-14,EXP-2026-0147,Expense,Research panels,Brand Strategy,Customer research & panels,4650.00,Paid
+2026-10-14,OPP-2026-0068,Pipeline,Summit Trail Apparel,Brand Strategy,Proposal — Rebrand program,34000.00,Discovery
+2026-10-15,EXP-2026-0149,Expense,Contractor network,Content Production,Freelance specialists,5830.00,Paid
+2026-10-15,INV-2026-0232,Revenue,Fairhaven Realty,Web Development,CMS migration,9000.00,Paid
+2026-10-15,INV-2026-0253,Revenue,Bluewater Logistics,Brand Strategy,Rebrand rollout,11450.00,Invoiced
+2026-10-15,OPP-2026-0067,Pipeline,Halden Biotech,Performance Marketing,Proposal — Paid media program,41500.00,Discovery
+2026-10-17,OPP-2026-0066,Pipeline,Vantage Freight,Managed Retainers,Proposal — Fractional CMO engagement,10500.00,Verbal commit
+2026-10-19,INV-2026-0247,Revenue,Granite Peak Outfitters,Managed Retainers,Monthly growth retainer,5950.00,Overdue
+2026-10-20,INV-2026-0245,Revenue,Cedar Ridge Dental,Managed Retainers,Support & SLA retainer,7750.00,Invoiced
+2026-10-21,INV-2026-0238,Revenue,Bluewater Logistics,Performance Marketing,Analytics & attribution setup,14150.00,Paid
+2026-10-21,INV-2026-0257,Revenue,Ironleaf Manufacturing,Content Production,Blog content package,6150.00,Invoiced
+2026-10-22,EXP-2026-0138,Expense,Cloud hosting & licenses,Web Development,"Hosting, plugins & licenses",9900.00,Paid
+2026-10-22,EXP-2026-0148,Expense,Internal payroll,Content Production,Delivery team & overhead allocation,18360.00,Paid
+2026-10-22,INV-2026-0237,Revenue,Granite Peak Outfitters,Performance Marketing,Analytics & attribution setup,13250.00,Paid
+2026-10-22,INV-2026-0256,Revenue,Ironleaf Manufacturing,Content Production,Blog content package,6400.00,Invoiced
+2026-10-23,EXP-2026-0144,Expense,Support tooling,Managed Retainers,Helpdesk & monitoring tools,5420.00,Paid
+2026-10-23,INV-2026-0239,Revenue,Corvid Analytics,Performance Marketing,Lead-gen campaign,7500.00,Invoiced
+2026-10-24,EXP-2026-0146,Expense,Contractor network,Brand Strategy,Freelance specialists,6250.00,Paid
+2026-10-24,OPP-2026-0072,Pipeline,Kestrel Aviation Services,Web Development,Proposal — Customer portal,18000.00,Proposal sent
+2026-10-24,OPP-2026-0074,Pipeline,Willowbrook Senior Living,Brand Strategy,Proposal — Positioning sprint,32000.00,Verbal commit
+2026-10-25,INV-2026-0251,Revenue,Maplestone Insurance,Brand Strategy,Messaging framework,10100.00,Paid
+2026-10-25,INV-2026-0254,Revenue,Juniper Health Clinics,Brand Strategy,Messaging framework,10300.00,Paid
+2026-10-26,EXP-2026-0143,Expense,Contractor network,Managed Retainers,Freelance specialists,6420.00,Paid
+2026-10-26,INV-2026-0244,Revenue,Alder & Finch Legal,Managed Retainers,Monthly growth retainer,6300.00,Paid
+2026-10-28,EXP-2026-0139,Expense,Internal payroll,Performance Marketing,Delivery team & overhead allocation,29470.00,Paid
+2026-10-29,INV-2026-0255,Revenue,Ironleaf Manufacturing,Content Production,Blog content package,11500.00,Paid
+2026-10-30,INV-2026-0235,Revenue,Ironleaf Manufacturing,Web Development,Accessibility remediation,12400.00,Invoiced

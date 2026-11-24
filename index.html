@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brújula</title>
+  <meta name="description" content="Interactive business KPI dashboard and executive reporting tool: revenue, expenses, pipeline, targets, what-if modeling, CSV import/export and printable executive summaries." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232a78d6'/%3E%3Cpath d='M9 22V15M16 22V10M23 22v-4' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#2a78d6" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+  <!-- Apply saved / OS theme and saved language before paint to avoid a flash -->
+  <script>
+    (function () {
+      var t = null, l = null;
+      try { t = localStorage.getItem('kpi-theme'); l = localStorage.getItem('kpi-lang'); } catch (e) {}
+      if (!t) t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+      document.documentElement.setAttribute('lang', l === 'es' ? 'es' : 'en');
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      darkMode: ['class', '[data-theme="dark"]'],
+      corePlugins: { preflight: true },
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif'] },
+          colors: {
+            page: 'var(--page)', surface: 'var(--surface)', subtle: 'var(--surface-2)',
+            ink: 'var(--ink)', ink2: 'var(--ink-2)', muted: 'var(--muted)',
+            line: 'var(--line)', accent: 'var(--accent)',
+          },
+        },
+      },
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="font-sans antialiased no-data">
+  <!-- ================================================================ APP -->
+  <div id="app">
+    <!-- Top bar -->
+    <header class="topbar">
+      <div class="mx-auto flex max-w-[1440px] flex-wrap items-center gap-3 px-4 py-3 sm:px-6">
+        <div class="flex min-w-0 items-center gap-3">
+          <div class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 18v-6M12 18V6M18 18v-3"/></svg>
+          </div>
+          <div class="min-w-0">
+            <div class="flex items-center gap-2">
+              <span id="companyName" class="truncate text-[15px] font-semibold text-ink">Brújula</span>
+              <span class="chip hidden sm:inline-flex" data-i18n="top.badge">Executive Dashboard</span>
+            </div>
+            <div id="dataSource" class="truncate text-xs text-muted">—</div>
+          </div>
+        </div>
+
+        <div class="ml-auto flex flex-wrap items-center gap-2">
+          <button id="btnImport" class="btn" type="button" data-i18n-title="top.importTitle" title="Import transactions from a CSV file">
+            <svg class="ico" viewBox="0 0 24 24"><path d="M12 15V3M7 8l5-5 5 5M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"/></svg>
+            <span class="hidden md:inline" data-i18n="top.import">Import CSV</span>
+          </button>
+          <button id="btnExport" class="btn" type="button" data-i18n-title="top.exportTitle" title="Export the filtered records as CSV">
+            <svg class="ico" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"/></svg>
+            <span class="hidden md:inline" data-i18n="top.export">Export CSV</span>
+          </button>
+          <button id="btnReport" class="btn btn-primary" type="button" data-i18n-title="top.reportTitle" title="Preview and print the executive summary">
+            <svg class="ico" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>
+            <span data-i18n="top.report">Executive Summary</span>
+          </button>
+          <button id="btnLang" class="btn btn-lang" type="button" data-i18n-aria="top.lang" data-i18n-title="top.lang" aria-label="Switch language: English / Spanish" title="Switch language: English / Spanish">
+            <span data-lang-opt="en" class="is-active">EN</span><span class="sep" aria-hidden="true">/</span><span data-lang-opt="es">ES</span>
+          </button>
+          <button id="btnTheme" class="btn btn-icon" type="button" data-i18n-aria="top.theme" data-i18n-title="top.theme" aria-label="Toggle dark mode" title="Toggle dark / light mode">
+            <svg class="ico ico-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+            <svg class="ico ico-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          </button>
+          <input id="fileInput" type="file" accept=".csv,text/csv" class="hidden" />
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-[1440px] px-4 pb-16 pt-5 sm:px-6">
+      <!-- Welcome screen: shown until the user loads a CSV file -->
+      <section id="emptyState" class="card empty-state">
+        <div class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 18v-6M12 18V6M18 18v-3"/></svg>
+        </div>
+        <h1 class="text-[22px] font-semibold tracking-tight text-ink" data-i18n="empty.title">No data yet</h1>
+        <p class="max-w-md text-sm text-ink2" data-i18n="empty.text">Load a CSV file with your income and expenses to see your business at a glance.</p>
+        <button id="btnImportEmpty" class="btn btn-primary" type="button">
+          <svg class="ico" viewBox="0 0 24 24"><path d="M12 15V3M7 8l5-5 5 5M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"/></svg>
+          <span data-i18n="empty.button">Load CSV file</span>
+        </button>
+        <p class="text-xs text-muted" data-i18n="empty.drop">You can also drag the file and drop it anywhere on this page.</p>
+        <div class="empty-samples">
+          <span class="text-xs text-ink2" data-i18n="empty.samples">Nothing to load? Download an example file:</span>
+          <div class="flex flex-wrap justify-center gap-2">
+            <a class="btn btn-sm" href="ejemplos/panaderia-de-barrio.csv" download data-i18n="empty.bakery">Neighborhood bakery</a>
+            <a class="btn btn-sm" href="ejemplos/grancola-internacional.csv" download data-i18n="empty.bigco">Large company</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Page title + filters -->
+      <section class="mb-5 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+        <div>
+          <h1 class="text-[22px] font-semibold tracking-tight text-ink sm:text-2xl" data-i18n="page.title">Business Performance Overview</h1>
+          <p id="scopeLine" class="mt-1 text-sm text-ink2">—</p>
+        </div>
+        <div class="filters" role="group" data-i18n-aria="filters.aria" aria-label="Dashboard filters">
+          <label class="field">
+            <span data-i18n="filters.year">Year</span>
+            <select id="fYear" class="select"></select>
+          </label>
+          <label class="field">
+            <span data-i18n="filters.period">Period</span>
+            <select id="fPeriod" class="select"></select>
+          </label>
+          <label class="field">
+            <span data-i18n="filters.service">Service</span>
+            <select id="fService" class="select"></select>
+          </label>
+          <button id="btnResetFilters" class="btn btn-ghost self-end" type="button" data-i18n-title="filters.resetTitle" title="Reset filters">
+            <svg class="ico" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+            <span data-i18n="filters.reset">Reset</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- KPI cards -->
+      <section id="kpis" class="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4" data-i18n-aria="kpi.aria" aria-label="Key performance indicators"></section>
+
+      <!-- Charts -->
+      <section class="mt-4 grid grid-cols-1 gap-4 xl:grid-cols-3">
+        <article class="card xl:col-span-2">
+          <div class="card-head">
+            <div>
+              <h2 class="card-title" data-i18n="chart.trendTitle">Revenue vs. Expenses</h2>
+              <p id="trendSub" class="card-sub" data-i18n="chart.trendSubStatic">Monthly, selected period highlighted</p>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="legend" aria-hidden="true">
+                <span><i class="swatch" style="background:var(--series-1)"></i><span data-i18n="chart.revenue">Revenue</span></span>
+                <span><i class="swatch" style="background:var(--series-2)"></i><span data-i18n="chart.expenses">Expenses</span></span>
+              </div>
+              <div class="segmented" role="tablist" data-i18n-aria="chart.type" aria-label="Chart type">
+                <button type="button" data-chart="bar" class="is-active" aria-pressed="true" data-i18n="chart.bar">Bar</button>
+                <button type="button" data-chart="line" aria-pressed="false" data-i18n="chart.line">Line</button>
+              </div>
+            </div>
+          </div>
+          <div class="chart-box h-[300px]"><canvas id="trendChart" role="img" data-i18n-aria="chart.trendAria" aria-label="Monthly revenue and expenses chart"></canvas></div>
+        </article>
+
+        <article class="card flex flex-col">
+          <div class="card-head">
+            <div>
+              <h2 class="card-title" data-i18n="chart.mixTitle">Revenue by Service</h2>
+              <p class="card-sub" data-i18n="chart.mixSub">Click a service to filter the dashboard</p>
+            </div>
+          </div>
+          <div class="grid flex-1 grid-cols-1 content-center items-center gap-4 sm:grid-cols-[180px_1fr] xl:grid-cols-1 2xl:grid-cols-[170px_1fr]">
+            <div class="chart-box mx-auto h-[180px] w-[180px]"><canvas id="mixChart" role="img" data-i18n-aria="chart.mixAria" aria-label="Revenue breakdown by service category"></canvas></div>
+            <ul id="mixLegend" class="mix-legend"></ul>
+          </div>
+        </article>
+      </section>
+
+      <!-- What-if simulator -->
+      <section id="simulator" class="card mt-4">
+        <div class="card-head">
+          <div>
+            <h2 class="card-title flex items-center gap-2">
+              <span data-i18n="sim.title">What-If Revenue &amp; Margin Simulator</span>
+              <span class="chip chip-accent" data-i18n="sim.live">Live</span>
+            </h2>
+            <p id="simBaseline" class="card-sub" data-i18n="sim.baselineDefault">Baseline from the current filter</p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <button type="button" class="btn btn-sm" data-preset="conservative" data-i18n="sim.preset.conservative">Conservative</button>
+            <button type="button" class="btn btn-sm" data-preset="growth" data-i18n="sim.preset.growth">Growth push</button>
+            <button type="button" class="btn btn-sm" data-preset="efficiency" data-i18n="sim.preset.efficiency">Cost discipline</button>
+            <button type="button" class="btn btn-sm btn-ghost" data-preset="reset" data-i18n="sim.preset.reset">Reset</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+          <div class="space-y-5">
+            <div class="slider-row">
+              <div class="slider-head">
+                <label for="sClients" data-i18n="sim.clients">Active clients / month</label>
+                <output id="oClients">—</output>
+              </div>
+              <input id="sClients" type="range" class="range" />
+              <div class="slider-foot"><span id="dClients">—</span></div>
+            </div>
+            <div class="slider-row">
+              <div class="slider-head">
+                <label for="sTicket" data-i18n="sim.ticket">Average revenue per client</label>
+                <output id="oTicket">—</output>
+              </div>
+              <input id="sTicket" type="range" class="range" />
+              <div class="slider-foot"><span id="dTicket">—</span></div>
+            </div>
+            <div class="slider-row">
+              <div class="slider-head">
+                <label for="sCost" data-i18n="sim.cost">Operating cost change</label>
+                <output id="oCost">—</output>
+              </div>
+              <input id="sCost" type="range" class="range" min="-30" max="30" step="1" value="0" />
+              <div class="slider-foot"><span id="dCost">—</span></div>
+            </div>
+            <p class="text-xs leading-relaxed text-muted" data-i18n="sim.model">
+              Model: revenue = clients × revenue per client. 35% of operating costs scale with client volume
+              (delivery capacity); the rest is fixed overhead. The cost slider applies on top.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+            <div id="simResults" class="grid grid-cols-2 gap-3 content-start"></div>
+            <div class="chart-box h-[230px]" id="simChartBox"><canvas id="simChart" role="img" data-i18n-aria="sim.chartAria" aria-label="Baseline versus scenario comparison chart"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Records table -->
+      <section id="records" class="card mt-4">
+        <div class="card-head flex-wrap">
+          <div>
+            <h2 class="card-title" data-i18n="table.title">Transactions &amp; Client Pipeline</h2>
+            <p id="tableSub" class="card-sub">—</p>
+          </div>
+          <div class="flex w-full flex-wrap items-center gap-2 md:w-auto">
+            <div class="segmented" id="typeFilter" role="tablist" data-i18n-aria="table.typeAria" aria-label="Record type">
+              <button type="button" data-type="all" class="is-active" aria-pressed="true" data-i18n="table.tab.all">All</button>
+              <button type="button" data-type="Revenue" aria-pressed="false" data-i18n="table.tab.Revenue">Revenue</button>
+              <button type="button" data-type="Expense" aria-pressed="false" data-i18n="table.tab.Expense">Expenses</button>
+              <button type="button" data-type="Pipeline" aria-pressed="false" data-i18n="table.tab.Pipeline">Pipeline</button>
+            </div>
+            <label class="search">
+              <svg class="ico" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              <input id="search" type="search" data-i18n-placeholder="table.search" data-i18n-aria="table.searchAria" placeholder="Search clients, IDs, services…" aria-label="Search records" />
+            </label>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th data-sort="date" data-i18n="table.col.date">Date</th>
+                <th data-sort="id" data-i18n="table.col.id">ID</th>
+                <th data-sort="party" data-i18n="table.col.party">Client / Vendor</th>
+                <th data-sort="service" class="hide-sm" data-i18n="table.col.service">Service</th>
+                <th data-sort="type" data-i18n="table.col.type">Type</th>
+                <th data-sort="description" class="hide-md" data-i18n="table.col.description">Description</th>
+                <th data-sort="amount" class="num" data-i18n="table.col.amount">Amount</th>
+                <th data-sort="status" data-i18n="table.col.status">Status</th>
+              </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+        <div class="table-foot">
+          <span id="pageInfo" class="text-sm text-ink2">—</span>
+          <div class="flex items-center gap-2">
+            <button id="prevPage" class="btn btn-sm" type="button" data-i18n="table.prev" data-i18n-aria="table.prevAria" aria-label="Previous page">‹ Prev</button>
+            <button id="nextPage" class="btn btn-sm" type="button" data-i18n="table.next" data-i18n-aria="table.nextAria" aria-label="Next page">Next ›</button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="mt-8 flex flex-col gap-2 text-xs text-muted sm:flex-row sm:justify-between">
+        <span data-i18n="company.note">All company names and figures are fictional demo data.</span>
+        <span data-i18n="footer.built">Built with HTML, Tailwind CSS &amp; Chart.js · No build step</span>
+      </footer>
+    </main>
+  </div>
+
+  <!-- ============================================ IMPORT DIALOG -->
+  <div id="importDialog" class="modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="importTitle">
+      <h3 id="importTitle" class="text-base font-semibold text-ink" data-i18n="import.title">Import CSV</h3>
+      <p id="importSummary" class="mt-2 text-sm text-ink2">—</p>
+      <div class="mt-5 flex flex-wrap justify-end gap-2">
+        <button class="btn btn-ghost" type="button" data-import="cancel" data-i18n="import.cancel">Cancel</button>
+        <button class="btn" type="button" data-import="replace" data-i18n="import.replace">Replace current data</button>
+        <button class="btn btn-primary" type="button" data-import="merge" data-i18n="import.merge">Merge with current data</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================ EXECUTIVE REPORT -->
+  <div id="reportOverlay" class="report-overlay" hidden>
+    <div class="report-toolbar">
+      <span class="text-sm font-medium" data-i18n="report.toolbar">Executive Summary — print preview</span>
+      <div class="flex gap-2">
+        <button id="btnPrint" class="btn btn-primary btn-sm" type="button" data-i18n="report.print">Print / Save as PDF</button>
+        <button id="btnCloseReport" class="btn btn-sm" type="button" data-i18n="report.close">Close</button>
+      </div>
+    </div>
+    <article id="report" class="report-paper" data-i18n-aria="report.aria" aria-label="Executive summary report"></article>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // Register the service worker (needs http/https; it does not run from a file:// path).
+    if ('serviceWorker' in navigator && location.protocol.indexOf('http') === 0) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('sw.js').catch(function () {});
+      });
+    }
+  </script>
+</body>
+</html>
